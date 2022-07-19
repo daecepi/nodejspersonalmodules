@@ -1,0 +1,31 @@
+{
+  "name": "nodejspersonalmodules",
+  "version": "1.0.0",
+  "description": "Personal libraries hub for hobby and personal projects from David Cermeño",
+  "main": "tester.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daecepi/nodejspersonalmodules.git"
+  },
+  "keywords": [
+    "Modules",
+    "NodeJS",
+    "personal"
+  ],
+  "author": "David Eduardo Cermeño Pinzon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daecepi/nodejspersonalmodules/issues"
+  },
+  "homepage": "https://github.com/daecepi/nodejspersonalmodules#readme",
+  "dependencies": {
+    "clock": "file:lib/clock/clock-0.0.1.tgz",
+    "units-convertion": "file:lib/units-convertion/units-convertion-0.0.1.tgz"
+  }
+}
